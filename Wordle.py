@@ -5,16 +5,15 @@
 # Description of any added extensions:
 ########################################
 
-from WordleGraphics import WordleGWindow, N_ROWS, N_COLS
-from english import ENGLISH_WORDS, is_english_word
-from WordleGraphics import CORRECT_COLOR, PRESENT_COLOR, MISSING_COLOR, UNKNOWN_COLOR
+from english import *
+from WordleGraphics import *
 import random
 
 def wordle():
-    """ The main function to play the Wordle game. """
+    # The main function to play the Wordle game.
 
     def enter_action():
-        """ What should happen when the RETURN or ENTER key is pressed. """
+        # What should happen when RETURN/ENTER is pressed.
         gw.show_message("You need to implement this method")
 
 
