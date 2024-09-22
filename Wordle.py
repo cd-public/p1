@@ -6,8 +6,12 @@
 # Description of any added extensions:
 ########################################
 
-from english import *
-from WordleGraphics import *
+ # WordleGWindow, N_ROWS, N_COLS, CORRECT_COLOR, PRESENT_COLOR, MISSING_COLOR, UNKNOWN_COLOR
+from WordleGraphics import 
+
+# ENGLISH_WORDS, is_english_word
+from english import 
+
 import random
 
 def wordle():
