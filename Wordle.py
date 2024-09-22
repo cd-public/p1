@@ -1,6 +1,7 @@
 ########################################
 # Name:
 # Collaborators (if any):
+# GenAI Transcript (if any):
 # Estimated time spent (hr):
 # Description of any added extensions:
 ########################################
