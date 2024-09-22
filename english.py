@@ -11,20 +11,10 @@ def isEnglishWord(s):
     """
     Returns True if s is a valid English word.
     """
-    s = s.lower()
-    lh = 0
-    rh = len(ENGLISH_WORDS) - 1
-    while lh <= rh:
-        mid = (lh + rh) // 2
-        if s == ENGLISH_WORDS[mid]:
-            return True
-        if s < ENGLISH_WORDS[mid]:
-            rh = mid - 1
-        else:
-            lh = mid + 1
-    return False
+    return  s.lower() in ENGLISH_WORDS
 
 is_english_word = isEnglishWord
+isenglishword = isEnglishWord
 
 # Constants
 
