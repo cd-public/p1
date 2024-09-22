@@ -6,7 +6,6 @@
 # Description of any added extensions:
 ########################################
 
-
 from WordleGraphics import *  # WordleGWindow, N_ROWS, N_COLS, CORRECT_COLOR, PRESENT_COLOR, MISSING_COLOR, UNKNOWN_COLOR
 from english import * # ENGLISH_WORDS, is_english_word
 import random
